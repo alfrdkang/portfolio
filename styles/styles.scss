@@ -153,17 +153,6 @@ section{
         display: flex;
         align-items: center;
         position: relative;
-        .header-shape{
-            transition: all .4s ease-in-out;
-            width: 65%;
-            height: 100%;
-            background-color: var(--color-secondary);
-            position: absolute;
-            right: 0;
-            top: 0;
-            z-index: -1;
-            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-        }
         .image{ 
             border-radius: var(--br-sm-2);
             height: 90%;
